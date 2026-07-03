@@ -25,6 +25,7 @@
     --merchant-color: #EA4335;
     --search-color: #9B59B6;
     --demandas-color: #E67E22;
+    --financeiro-color: #0D9488;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); }
@@ -90,6 +91,7 @@
   .ptab.active[data-platform="merchant"] { color: var(--merchant-color); border-bottom-color: var(--merchant-color); }
   .ptab.active[data-platform="search"]   { color: var(--search-color);   border-bottom-color: var(--search-color); }
   .ptab.active[data-platform="demandas"] { color: var(--demandas-color); border-bottom-color: var(--demandas-color); }
+  .ptab.active[data-platform="financeiro"] { color: var(--financeiro-color); border-bottom-color: var(--financeiro-color); }
 
   .month-pills { display: flex; gap: 6px; align-items: center; padding: 8px 0; }
   .month-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-right: 4px; }
@@ -326,6 +328,9 @@
       </button>
       <button class="ptab" data-platform="search" onclick="switchPlatform('search')">
         <span class="ptab-dot"></span> Search Console
+      </button>
+      <button class="ptab" data-platform="financeiro" onclick="switchPlatform('financeiro')">
+        <span class="ptab-dot"></span> Financeiro
       </button>
       <button class="ptab" data-platform="demandas" onclick="switchPlatform('demandas')">
         <span class="ptab-dot"></span> Demandas
@@ -1944,6 +1949,115 @@
         <div class="insight-card" style="border-left-color:var(--search-color);">
           <div class="insight-title">✅ "Barbatana costuravel" — posição 3,7 com 573 impressões</div>
           <div class="insight-text">Query de produto específico em posição ótima. CTR de 2,1% pode ser melhorado com rich snippet (schema markup) de produto. Identificar outros produtos com posição 2–5 e CTR baixo é a tática mais rápida de ganho orgânico sem mudar ranking.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     FINANCEIRO · JUN/26
+═══════════════════════════════════════════ -->
+<div id="content-financeiro-jun26" class="tab-content">
+
+  <div style="background:#fff; border-bottom:1px solid var(--border);">
+    <div style="max-width:1200px; margin:0 auto; padding:10px 24px; display:flex; align-items:center; gap:12px;">
+      <span style="font-size:18px;">💰</span>
+      <div>
+        <div style="font-size:13px; font-weight:700; color:var(--financeiro-color);">Resumo Financeiro — Meta Ads + Google Ads</div>
+        <div style="font-size:11px; color:var(--muted);">Investimento, Faturamento e ROAS &nbsp;·&nbsp; Jan/2025 – Jun/2026</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="section">
+      <div class="section-title">Visão Consolidada — Jan/2025 a Jun/2026</div>
+      <div class="cards-grid cards-4">
+        <div class="card gray">
+          <div class="card-label">Investimento total</div>
+          <div class="card-value sm">R$ 150.702</div>
+          <div class="card-sub">Meta + Google · 18 meses</div>
+        </div>
+        <div class="card blue">
+          <div class="card-label">Faturamento total</div>
+          <div class="card-value sm">R$ 4.882.835</div>
+          <div class="card-sub">Receita atribuída (Meta + Google)</div>
+        </div>
+        <div class="card green">
+          <div class="card-label">ROAS médio geral</div>
+          <div class="card-value">32.4x</div>
+          <div class="card-sub">Faturamento ÷ Investimento</div>
+        </div>
+        <div class="card green">
+          <div class="card-label">Retorno bruto de mídia</div>
+          <div class="card-value sm">R$ 4.732.133</div>
+          <div class="card-sub">Faturamento − Investimento</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Investimento · Faturamento · ROAS por Mês</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Mês</th>
+              <th style="text-align:right;">Investimento</th>
+              <th style="text-align:right;">Faturamento</th>
+              <th style="text-align:right;">ROAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td style="">Jan/25</td><td style="text-align:right; ">R$ 7.266</td><td style="text-align:right; ">R$ 292.139</td><td style="text-align:right;"><span style="font-weight:800; color:#00a374;">40.2x</span></td></tr>
+            <tr><td style="">Fev/25</td><td style="text-align:right; ">R$ 7.145</td><td style="text-align:right; ">R$ 242.171</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">33.9x</span></td></tr>
+            <tr><td style="">Mar/25</td><td style="text-align:right; ">R$ 12.180</td><td style="text-align:right; ">R$ 352.345</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">28.9x</span></td></tr>
+            <tr><td style="">Abr/25</td><td style="text-align:right; ">R$ 12.192</td><td style="text-align:right; ">R$ 358.245</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">29.4x</span></td></tr>
+            <tr><td style="">Mai/25</td><td style="text-align:right; ">R$ 10.782</td><td style="text-align:right; ">R$ 336.323</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">31.2x</span></td></tr>
+            <tr><td style="">Jun/25</td><td style="text-align:right; ">R$ 7.951</td><td style="text-align:right; ">R$ 198.050</td><td style="text-align:right;"><span style="font-weight:800; color:#c07800;">24.9x</span></td></tr>
+            <tr><td style="">Jul/25</td><td style="text-align:right; ">R$ 7.299</td><td style="text-align:right; ">R$ 243.459</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">33.4x</span></td></tr>
+            <tr><td style="">Ago/25</td><td style="text-align:right; ">R$ 7.462</td><td style="text-align:right; ">R$ 240.429</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">32.2x</span></td></tr>
+            <tr><td style="">Set/25</td><td style="text-align:right; ">R$ 7.877</td><td style="text-align:right; ">R$ 341.377</td><td style="text-align:right;"><span style="font-weight:800; color:#00a374;">43.3x</span></td></tr>
+            <tr><td style="">Out/25</td><td style="text-align:right; ">R$ 8.474</td><td style="text-align:right; ">R$ 341.468</td><td style="text-align:right;"><span style="font-weight:800; color:#00a374;">40.3x</span></td></tr>
+            <tr><td style="">Nov/25</td><td style="text-align:right; ">R$ 7.626</td><td style="text-align:right; ">R$ 311.362</td><td style="text-align:right;"><span style="font-weight:800; color:#00a374;">40.8x</span></td></tr>
+            <tr><td style="">Dez/25</td><td style="text-align:right; ">R$ 5.024</td><td style="text-align:right; ">R$ 108.545</td><td style="text-align:right;"><span style="font-weight:800; color:#c07800;">21.6x</span></td></tr>
+            <tr style="background:#f7f8fa;"><td style="font-weight:800;">Subtotal 2025</td><td style="text-align:right; font-weight:800;">R$ 101.278</td><td style="text-align:right; font-weight:800;">R$ 3.365.913</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">33.2x</span></td></tr>
+            <tr><td style="">Jan/26</td><td style="text-align:right; ">R$ 6.525</td><td style="text-align:right; ">R$ 215.441</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">33.0x</span></td></tr>
+            <tr><td style="">Fev/26</td><td style="text-align:right; ">R$ 6.321</td><td style="text-align:right; ">R$ 209.919</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">33.2x</span></td></tr>
+            <tr><td style="">Mar/26</td><td style="text-align:right; ">R$ 8.212</td><td style="text-align:right; ">R$ 296.986</td><td style="text-align:right;"><span style="font-weight:800; color:#00a374;">36.2x</span></td></tr>
+            <tr><td style="">Abr/26</td><td style="text-align:right; ">R$ 9.003</td><td style="text-align:right; ">R$ 256.921</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">28.5x</span></td></tr>
+            <tr><td style="">Mai/26</td><td style="text-align:right; ">R$ 10.483</td><td style="text-align:right; ">R$ 291.426</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">27.8x</span></td></tr>
+            <tr><td style="">Jun/26</td><td style="text-align:right; ">R$ 8.880</td><td style="text-align:right; ">R$ 246.229</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">27.7x</span></td></tr>
+            <tr style="background:#f7f8fa;"><td style="font-weight:800;">Subtotal 2026</td><td style="text-align:right; font-weight:800;">R$ 49.424</td><td style="text-align:right; font-weight:800;">R$ 1.516.922</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">30.7x</span></td></tr>
+            <tr style="background:#eafaf3;"><td style="font-weight:800;">TOTAL GERAL</td><td style="text-align:right; font-weight:800;">R$ 150.702</td><td style="text-align:right; font-weight:800;">R$ 4.882.835</td><td style="text-align:right;"><span style="font-weight:800; color:#4a90d9;">32.4x</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="font-size:11px; color:var(--muted); margin-top:8px;">Consolidado Meta Ads + Google Ads · receita atribuída por cada plataforma · Google normalizado (somente compras reais).</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Composição por Canal — 2026 (Jan a Jun)</div>
+      <div class="cards-grid cards-2">
+        <div class="card" style="border-left:4px solid var(--meta-color);">
+          <div class="card-label" style="color:var(--meta-color);">Meta Ads · 2026</div>
+          <div style="display:flex; gap:24px; margin-top:6px; flex-wrap:wrap;">
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">Investimento</div><div style="font-size:15px; font-weight:800;">R$ 17.591</div></div>
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">Faturamento</div><div style="font-size:15px; font-weight:800;">R$ 757.916</div></div>
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">ROAS</div><div style="font-size:15px; font-weight:800; color:var(--meta-color);">43.1x</div></div>
+          </div>
+        </div>
+        <div class="card" style="border-left:4px solid var(--google-color);">
+          <div class="card-label" style="color:var(--google-color);">Google Ads · 2026</div>
+          <div style="display:flex; gap:24px; margin-top:6px; flex-wrap:wrap;">
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">Investimento</div><div style="font-size:15px; font-weight:800;">R$ 31.833</div></div>
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">Faturamento</div><div style="font-size:15px; font-weight:800;">R$ 759.006</div></div>
+            <div><div style="font-size:10px; color:var(--muted); text-transform:uppercase;">ROAS</div><div style="font-size:15px; font-weight:800; color:var(--google-color);">23.8x</div></div>
+          </div>
         </div>
       </div>
     </div>
